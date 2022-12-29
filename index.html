@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <title>Coding Ninja</title>
+    <style>
+        .carousel-item {
+            image-rendering: ;
+        }
+        
+        h1 {
+            color: purple;
+        }
+        
+        #code {
+            font-size: 23px;
+            font-weight: 100px;
+            color: black;
+            font-style: italic, cursive, bold;
+        }
+        
+        .card {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LEARN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/about.html">about</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Topics
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">web dev</a></li>
+                            <li><a class="dropdown-item" href="#">technology</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Information</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/contact.html">contact us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+              <button class="btn btn-outline-primary" type="submit">
+                Login
+              </button>
+              <button class="btn btn-outline-danger" type="submit">
+                Singin
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80" class="d-block w-100" alt="..." height="750vh">
+            <div class="carousel-caption d-none d-md-block">
+              <h2><b>Welcome to the World of Coding</b></h2>
+              <p><b>Excel Frontend,Backend and Web-Development Skills</b></p>
+              <button class="btn btn-primary">Technology</button>
+              <button class="btn btn-danger">Web-Development</button>
+              <button class="btn btn-success">Programming languages</button>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="https://www.ocregister.com/wp-content/uploads/2017/12/1203_nws_ocr-l-hackathon-011.jpg?w=1024" class="d-block w-100" alt="..." height="750vh">
+            <div class="carousel-caption d-none d-md-block">
+                <h2><b>Learn to Become an Excellent Programer</b></h2>
+                <p><b>Excel Frontend,Backend and Web-Development Skills</b></p>
+                <button class="btn btn-primary">Technology</button>
+                <button class="btn btn-danger">Web-Development</button>
+                <button class="btn btn-success">Programming languages</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://elps.utk.edu/wp-content/uploads/sites/40/2019/09/academy-celebrate-celebration-267885.jpg" class="d-block w-100" alt="..." height="750vh">
+            <div class="carousel-caption d-none d-md-block">
+                <h2><b>Get Certified By EXpert</b></h2>
+                <p><b>Excel Frontend,Backend and Web-Development Skills</b></p>
+                <button class="btn btn-primary">Technology</button>
+                <button class="btn btn-danger">Web-Development</button>
+                <button class="btn btn-success">Programming languages</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container py-4">
+        <header class="pb-3 mb-4 border-bottom">
+          <a href="https://cdn-asset-mel-1.airsquare.com/www/library/image/illustration/responsive-design-dark-blue.png" class="d-flex align-items-center text-dark text-decoration-none width=12vw">
+            <img href="https://cdn-asset-mel-1.airsquare.com/www/library/image/illustration/responsive-design-dark-blue.png" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Coding Ninja</title><path fill-rule="evenodd" clip-rule="evenodd"  fill="currentColor"></path></img>
+            <span class="fs-4"><B>INFORMATION</B></span>
+          </a>
+                        </header>
+
+                        <div class="p-5 mb-4 bg-light rounded-3">
+                            <div class="container-fluid py-5">
+                                <h1 class="display-5 fw-bold">whY Pr0Gr@MInG...????</h1>
+                                <p class="col-md-8 fs-4">Computer programming is important today because so much of our world is automated. Humans need to be able to control the interaction between people and machines. Since computers and machines are able to do things so efficiently
+                                    and accurately, we use computer programming to harness that computing power.Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety
+                                    of computer programming languages, such as JavaScript, Python, and C++.</p>
+                                <button class="btn btn-primary btn-lg" type="button">Data structures</button>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-md-stretch">
+                            <div class="col-md-6">
+                                <div class="h-100 p-5 text-white bg-dark rounded-3">
+                                    <h2><b>Do you know about Artificial Intelligence?</b></h2>
+                                    <p>Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment.</p>
+                                    <button class="btn btn-outline-danger" type="button">Artificial Intelligence</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="h-100 p-5 bg-light border rounded-3">
+                                    <h2><b>what Machine Learning is?</b></h2>
+                                    <p>Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. ... Machine learning algorithms build a model based on sample data, known as training
+                                        data, in order to make predictions or decisions without being explicitly programmed to do so.</p>
+                                    <button class="btn btn-outline-success" type="button">Machine Learning</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="code">
+                            <p>
+                                <h1>Importance of coding</h1>
+                                Learning code is, in a broad sense, like learning any language – or to be more accurate, a family of languages. There are overarching rules that all scripts follow, but also very precise rules for each. It’s not an exaggeration that coding is the DNA
+                                of the digital world. Every phone app, website, computer programme, and even many kitchen appliances rely on coding to work. This is why coders have such a prominent position in the shaping of the modern age, and the future.
+                                It is anticipated that over the next decade that there will be a massive shortfall in the number of computer science graduates able to occupy the coding careers available. This signifies the proliferation of coding into
+                                many different industries. In fact, computer sciences are becoming a key element in many diverse areas of work, such as medicine and banking, where insight of programming and coding is of increasing relevance and importance.
+                            </p>
+                            <p>
+                                <h1>Where coding is used?</h1>
+                                As touched upon above, coding has becomeing the framework for the modern world and coders act as architects of these constructs. Consequently, skilled coders are in high demand. Their skills are used in creating mobile phone and desktop apps, and popular
+                                websites such as YouTube, Facebook, Twitter, and Instagram. There are many different programming languages, each with a different purpose of increasing and diminishing usefulness. Along with Python, PHP, and C#, here are
+                                some of the most widely used: Java: This is a general purpose language used especially with desktop software, Android phones and tablets, a great many websites, and in embedded systems such as the chip used to run a washing
+                                machine, for instance. Javascript: although similar in name to Java, it has almost no relation to it. In fact, it has been said that Java and Javascript are similar in the way Ham and Hamster are similar. Javascript was
+                                originally made to add front-end, in-browser functionality to web pages, such as with Gmail and eBay, where it enables an entire application to run within a web browser. Now people are finding new ways to utilise Javascript
+                                as a general purpose programming language. C: This extremely fast language is largely used for writing operating systems, device drivers, and other programming languages. It also has use in programming embedded systems,
+                                with good performance. C++: Built on C, there is actually a lot of overlap with C. C++ is used predominately with 3D games. It is rarely used with websites, unless they are highly-optimised. The specific quality of C++
+                                is in being able to manage memory very efficiently, which is useful when smooth real-time execution is needed.
+                            </p>
+                        </div>
+
+                        <footer class="pt-3 mt-4 text-muted text-center border-top">
+                            <b> Copyright &copy; 2021-2022 Sponsered by @Code_Ninja</b> </footer>
+            </div>
+</body>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
